@@ -9,30 +9,3 @@ hr.horizon {
     background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
 }
-hr.horizon-olive {
-    border: 0;
-    height: 1px;
-    background: #2a3517;
-    background-image: -webkit-linear-gradient(left, #99a682, #2a3517, #99a682); 
-    background-image:    -moz-linear-gradient(left, #99a682, #2a3517, #99a682); 
-    background-image:     -ms-linear-gradient(left, #99a682, #2a3517, #99a682); 
-    background-image:      -o-linear-gradient(left, #99a682, #2a3517, #99a682); 
-}
-
-hr.flaired {
-    height: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-}
-hr.flaired:before { 
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;    
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-}
