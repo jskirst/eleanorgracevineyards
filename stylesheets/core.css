@@ -1,12 +1,12 @@
 body { background-color: whitesmoke; padding: 10px 0 0 0; }
 img { border: 1px solid #BBB; }
 #content { width: 90%; max-width: 1300px; margin: auto; }
-
-section { padding: 15px 0 15px 0; margin: 0 auto 25px auto; background-color: white; border: 1px solid #DDD; width: 80%; }
+.header { padding: 10px 50px; border: 1px solid #DDD; width: 210px; margin: 0 auto; }
+section { padding: 15px 0 15px 0; margin: 0 auto 25px auto; background-color: white; border: 1px solid #DDD; width: 80%; max-width: 1300px; }
 section:first-child { width: 100%; }
 
 .coming_soon{ opacity: 0.5; cursor: default; position: relative;}
-.coming_soon .alert { position: absolute; margin: 75px 0 0 -111px; border: 1px solid #BBB; z-index: 1000; background: white; padding: 20px; left: 50%; }
+.coming_soon .alert { position: absolute; margin: 125px 0 0 -131px; border: 1px solid #BBB; z-index: 1000; background: white; padding: 20px; left: 50%; }
 .coming_soon .alert h3 { font-size: 35px; }
 
 section h2 { margin: 0 0 5px 0; }
