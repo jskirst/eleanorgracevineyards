@@ -38,9 +38,9 @@ section h4 { margin: 0 0 5px 0; }
 #about .description .blurb { width: 50%; display: inline-block; }
 #about .description .photo { width: 30%; display: inline-block; }
 */
-#about #map-canvas { margin: 10px auto 10px auto; width: 300px; height: 300px; }
+#about #map-canvas { margin: 10px auto 10px auto; width: 80%; max-width: 400px; height: 300px; }
 
-#portrait img { width: 28%; margin: 0 10px 0 10px; }
+#portrait img { width: 28%; margin: 0 2% 0 2%; border: 1px solid #CCC; }
 #portrait hr { margin: 30px auto; width: 95%; }
 
 #vintages .list { width: 80%; margin: auto; text-align: left; }
