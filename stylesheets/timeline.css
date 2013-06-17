@@ -30,7 +30,7 @@
   position: relative;
   float: left;
   clear: both;
-  margin: 75px auto;
+  margin: 25px auto;
   text-align: center;
   width: 100%;
   z-index: 10;
@@ -44,7 +44,7 @@
 .timeline .year span {
   border-radius: 50px;
   background: #505050;
-  font-size: 3em;
+  font-size: 25px;
   max-width: 200px;
   display: block;
   margin: 0 auto;
