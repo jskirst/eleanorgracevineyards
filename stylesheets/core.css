@@ -1,22 +1,12 @@
 body { background-color: whitesmoke; padding: 10px 0 0 0; }
-
+img { border: 1px solid #BBB; }
 #content { width: 90%; max-width: 1300px; margin: auto; }
 
 section { padding: 15px 0 15px 0; margin: 0 auto 25px auto; background-color: white; border: 1px solid #DDD; width: 80%; }
 section:first-child { width: 100%; }
 
 .coming_soon{ opacity: 0.5; cursor: default; position: relative;}
-.coming_soon .alert { 
-  position: absolute; 
-  margin-top: 75px;
-  border: 1px solid #BBB;
-  z-index: 1000;
-  background: white;
-  padding: 20px;
-  opacity: 1;
-  left: 50%;
-  margin-left: -111px;
-}
+.coming_soon .alert { position: absolute; margin: 75px 0 0 -111px; border: 1px solid #BBB; z-index: 1000; background: white; padding: 20px; left: 50%; }
 .coming_soon .alert h3 { font-size: 35px; }
 
 section h2 { margin: 0 0 5px 0; }
@@ -25,20 +15,21 @@ section h4 { margin: 0 0 5px 0; }
 
 .navbar { width: 100%; text-align: center; }
 .navbar .navitem { vertical-align: middle; display: inline-block; width: 13%; text-align: center; }
-.navbar .navitem.bookend { width: 4%; opacity: 0.6; }
+.navbar .navitem.bookend { width: 4%; opacity: 0.7; }
 .navbar .navitem.bookend img { border: 1px solid #AAA; width: 100%; }
 .navbar .navitem.brand { width: 25%; font-size: 15px; margin: 0 10px 0 10px; }
 .navbar .navitem a { color: inherit; text-decoration: none; }
 .navbar .navitem a:hover { text-decoration: underline; cursor: pointer; }
 
-#about .description { width: 80%; margin: 0 auto; }
+#about { padding: 15px 3% 15px 3%; }
+#about .description { width: 100%; margin: 0 auto; }
 /*
 #about .description .blurb { width: 50%; display: inline-block; }
-#about .description .photo { width: 30%; display: inline-block; }
 */
+#about .description .photo img { width: 20%; display: inline-block; }
 #about #map-canvas { margin: 10px auto 10px auto; width: 80%; max-width: 400px; height: 300px; }
 
-#portrait img { width: 28%; margin: 0 2% 0 2%; border: 1px solid #CCC; }
+#portrait img { width: 28%; margin: 0 2% 0 2%; }
 #portrait hr { margin: 30px auto; width: 95%; }
 
 #vintages .list { width: 80%; margin: auto; text-align: left; }
@@ -59,7 +50,4 @@ section h4 { margin: 0 0 5px 0; }
 #friends .form textarea { width: 90%; max-width: 400px; }
 #friends .form input.submit { width: 70px; }
 
-footer {
-  font-size: 11px;
-  padding: 30px 0 30px 0;
-}
+footer { font-size: 11px; padding: 30px 0 30px 0; }
